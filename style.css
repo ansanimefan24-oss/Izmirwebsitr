@@ -1,0 +1,109 @@
+/* إعدادات عامة */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Tahoma", Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: #f5f5f5;
+    direction: rtl;
+}
+
+/* العنوان الرئيسي */
+h1 {
+    text-align: center;
+    padding: 30px 10px;
+    color: #d4af37; /* ذهبي */
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+/* عنوان المنتجات */
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+/* صندوق المنتج */
+div {
+    background-color: #1a1a1a;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.25);
+}
+
+/* اسم المنتج */
+div h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #d4af37;
+}
+
+/* السعر */
+div p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #e0e0e0;
+}
+
+/* الصور */
+img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #d4af37;
+}
+
+/* زر واتساب */
+button {
+    background: linear-gradient(135deg, #d4af37, #b8962e);
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* تأثير عند المرور */
+button:hover {
+    background: linear-gradient(135deg, #f1c84b, #d4af37);
+    transform: scale(1.05);
+}
+
+/* إزالة الخط من الرابط */
+a {
+    text-decoration: none;
+}
+
+/* خط فاصل */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #333;
+    margin: 40px auto;
+    width: 60%;
+}
+
+/* تحسين العرض على الهاتف */
+@media (max-width: 600px) {
+    div {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
+
